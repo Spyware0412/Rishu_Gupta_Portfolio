@@ -1,0 +1,36 @@
+.gradient-outline-btn {
+  position: relative;
+  padding: 12px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color: #0f0f1a;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 0;
+  transition: all 0.3s ease;
+}
+
+.gradient-outline-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px; /* Border thickness */
+  border-radius: 10px;
+  background: linear-gradient(90deg, #4f46e5, #ec4899);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.gradient-outline-btn:hover {
+  color: white;
+  background-color: #0f0f1a;
+  box-shadow: 0 0 20px rgba(79, 70, 229, 0.6), 0 0 40px rgba(236, 72, 153, 0.6);
+  transform: scale(1.05);
+}
