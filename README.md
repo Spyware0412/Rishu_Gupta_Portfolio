@@ -53,3 +53,10 @@ REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
 ->  Copy the SERVICE ID, TEMPLATE ID, and PUBLIC KEY.
 
 ->  Update them in .env as shown above.
+<img width="1907" height="983" alt="image" src="https://github.com/user-attachments/assets/bfd0e9e3-82d2-4793-8b53-abdfec1964b8" />
+<img width="1807" height="972" alt="image" src="https://github.com/user-attachments/assets/8d0b4eee-6dcd-43c5-b0a6-f0644b698b8c" />
+<img width="1801" height="972" alt="image" src="https://github.com/user-attachments/assets/cc8b53d4-dab0-4614-bfe2-b0a1d1f9cc8f" />
+<img width="1865" height="981" alt="image" src="https://github.com/user-attachments/assets/47a4494f-c84c-40ba-810d-f005cb7738b7" />
+
+
+
